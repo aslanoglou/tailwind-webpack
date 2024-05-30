@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html{
+        scroll-behavior: smooth;
+    }
+    @font-face {
+        font-family: 'RobotoRegular';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    }
+    :root {
+        --stories-green: #274d25;
+        --color-primary: #274d25;
+        --white: #FFFFFF;
+        --black-50: rgba(0, 0, 0, .5)
+    }
+}
+
+html {
+    font-family: 'RobotoRegular', system-ui, sans-serif;
+}
